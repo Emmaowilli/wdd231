@@ -1,0 +1,66 @@
+nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul li {
+        padding: 0.5rem 1rem;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #course-work, #location {
+        flex: 1 1 45%;
+        margin: 1rem;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    #certificate {
+        flex: 1 1 100%;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    #certificate nav {
+        text-align: center;
+    }
+
+    #certificate nav button {
+        margin: 0.5rem;
+    }
+
+    #courses {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .course {
+        padding: 1rem;
+        margin: 0.5rem;
+        border-radius: 5px;
+        text-align: center;
+        min-width: 100px;
+    }
+
+    .course.completed {
+        background-color: #8b4513;
+        color: white;
+    }
+
+    .course:not(.completed) {
+        background-color: #808080;
+        color: white;
+    }

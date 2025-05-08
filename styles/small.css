@@ -1,0 +1,115 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2c3e50;
+    color: white;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+header span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #34495e;
+    color: white;
+}
+
+nav button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #4a6a8a;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: none;
+}
+
+nav ul.show {
+    display: block;
+}
+
+nav ul li {
+    padding: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#certificate nav button {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #4a6a8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#certificate nav button:hover {
+    background-color: #5a7a9a;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2c3e50;
+    color: white;
+}

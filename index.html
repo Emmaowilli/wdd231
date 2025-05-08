@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 Home Page</title>
+    <meta name="description" content="Home page for WDD 231 course assignments">
+    <meta name="author" content="Emmanuel Owilli">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/photostudio_emma.jpg" alt="Your Name">
+        <span>👌Emmanuel Owilli✌️</span>
+    </header>
+    <nav>
+        <button id="menu" aria-expanded="false" aria-controls="nav-links">Menu</button>
+        <ul id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="chamber.html">Chamber</a></li>
+            <li><a href="final.html">Final</a></li>
+            <li><a href="https://github.com/yourusername">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section id="course-work">
+            <h2>Course Work</h2>
+            <p>Current courses and assignments:</p>
+            <ul>
+                <li>WDD 231 - Web Frontend Development</li>
+                <li>CSE 110 - Introduction to Computing</li>
+            </ul>
+        </section>
+        <section id="location">
+            <h2>My Location</h2>
+            <img src="images/Independence-Monument uganda1.JPEG" alt="Your Location">
+            <p>A picture representing my hometown and my current location.</p>
+        </section>
+        <section id="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <nav>
+                <button id="all-courses">All</button>
+                <button id="cse-courses">CSE</button>
+                <button id="wdd-courses">WDD</button>
+            </nav>
+            <div id="courses"></div>
+            <p>Total Credits: <span id="total-credits"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> |👌Emmanuel Owilli⚽|👌Kampala/Uganda❤️</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
