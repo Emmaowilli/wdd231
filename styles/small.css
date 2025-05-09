@@ -1,3 +1,4 @@
+/* Reset defaults */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -80,9 +81,8 @@ h1 {
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    text-align: center;
 }
 
 section {
