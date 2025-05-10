@@ -34,13 +34,19 @@ nav {
     color: white;
 }
 
-nav button {
+nav button#menu {
+    display: block;
     width: 100%;
     padding: 1rem;
     background-color: #4a6a8a;
     color: white;
     border: none;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+nav button#menu:hover {
+    background-color: #5a7a9a;
 }
 
 nav ul {
