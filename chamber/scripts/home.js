@@ -53,7 +53,7 @@ async function fetchWeather() {
                 phone: '+256 772 333 444',
                 website: 'https://kampalatech.ug',
                 membershipLevel: 'Silver',
-                image: 'Kampala-tech.jpg'
+                image: 'kampala-tech.jpg'
             },
             {
                 name: 'Nile Breweries',
@@ -61,7 +61,7 @@ async function fetchWeather() {
                 phone: '+256 414 123 456',
                 website: 'https://nilebreweries.ug',
                 membershipLevel: 'Gold',
-                image: 'Nile-breweries.jpg'
+                image: 'nile-breweries.jpg'
             }
         ];
 
