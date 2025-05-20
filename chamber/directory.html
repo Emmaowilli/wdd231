@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Directory of Kampala Chamber of Commerce members, showcasing local businesses.">
+    <meta name="author" content="Emmanuel Owilli">
+    <!-- Facebook Open Graph Meta Tags -->
+    <meta property="og:title" content="Kampala Chamber of Commerce Directory">
+    <meta property="og:description" content="Explore the members of the Kampala Chamber of Commerce, supporting local businesses in Uganda.">
+    <meta property="og:image" content="https://emmaowilli.github.io/wdd231/chamber/images/kampala-chamber.jpg">
+    <meta property="og:url" content="https://emmaowilli.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <title>Kampala Chamber of Commerce - Directory</title>
+    <link rel="icon" type="image/x-icon" href="images/icon-favicon-16">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+    <header>
+        <span>Kampala Chamber of Commerce</span>
+    </header>
+    <nav>
+        <button id="menu" aria-label="Toggle navigation menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="directory">
+            <h1>Member Directory</h1>
+            <div class="view-toggle">
+                <button id="grid-view" class="active">Grid View</button>
+                <button id="list-view">List View</button>
+            </div>
+            <div id="member-list" class="grid"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Kampala Chamber of Commerce✌️ | Phone: +256760613062 | Email: info@kampalacc.org</p>
+        <p>© <span id="currentyear"></span> 👌Emmanuel Owilli❤️ | WDD 231 | <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

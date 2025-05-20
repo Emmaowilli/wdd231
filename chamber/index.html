@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the Kampala Chamber of Commerce, promoting local businesses in Uganda.">
+    <meta name="author" content="Emmanuel Owilli">
+    <!-- Facebook Open Graph Meta Tags -->
+    <meta property="og:title" content="Kampala Chamber of Commerce - Home">
+    <meta property="og:description" content="Join the Kampala Chamber of Commerce to support and grow local businesses in Uganda.">
+    <meta property="og:image" content="https://emmaowilli.github.io/wdd231/chamber/images/hero-kampala.jpg">
+    <meta property="og:url" content="https://emmaowilli.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+    <title>Kampala Chamber of Commerce - Home</title>
+    <link rel="icon" type="image/x-icon" href="images/icon-favicon-16.jpg">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <span>Kampala Chamber of Commerce</span>
+    </header>
+    <nav>
+        <button id="menu" aria-label="Toggle navigation menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <img src="images/kampala-city-landscap1.jpg" alt="Kampala Cityscape" class="hero-image">
+            <a href="join.html" class="cta">Join the Chamber Today!</a>
+        </section>
+        <section class="events">
+            <h2>Current Events</h2>
+            <p>Upcoming Business Networking Event - May 25, 2025</p>
+            <p>Annual Trade Fair - June 10-12, 2025</p>
+        </section>
+        <section class="weather">
+            <h2>Weather in Kampala</h2>
+            <div id="weather-data"></div>
+        </section>
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Kampala Chamber of Commerce✌️ | Phone: +256 760613062 | Email: info@kampalacc.org</p>
+        <p>© <span id="currentyear"></span> 👌Emmanuel Owilli ❤️| WDD 231 | <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

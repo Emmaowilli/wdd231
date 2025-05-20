@@ -17,17 +17,6 @@ header {
     color: white;
     text-align: center;
     padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-header img {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
 }
 
 header span {
@@ -46,9 +35,14 @@ nav {
     background-color: #34495e;
     color: white;
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     cursor: pointer;
     text-align: left;
+    transition: background-color 0.3s ease;
+}
+
+#menu:hover {
+    background-color: #465c71;
 }
 
 #menu::before {
@@ -62,6 +56,7 @@ nav {
 .navigation {
     list-style: none;
     display: none;
+    background-color: #34495e;
 }
 
 .navigation.open {
@@ -74,6 +69,7 @@ nav {
     color: white;
     text-decoration: none;
     font-size: 1rem;
+    transition: background-color 0.3s ease;
 }
 
 .navigation li a:hover {
@@ -88,64 +84,30 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
 }
 
-h2 {
-    color: #2c3e50;
-    font-size: 1.5rem;
-    margin: 1rem 0;
-}
-
-.course-work, .location, .certificate {
+.directory {
     background-color: white;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.course-work {
-    flex: 1;
-}
-
-.banner-image {
-    width: 100%;
-    height: auto;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-.location {
-    flex: 1;
+h1 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
-.location-image {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 5px;
-}
-
-.location p {
-    margin-top: 0.5rem;
-    font-style: italic;
-}
-
-.certificate {
-    flex: 1;
-}
-
-.filter-buttons {
-    margin: 1rem 0;
+.view-toggle {
     display: flex;
     gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
 }
 
-.filter-buttons button {
+.view-toggle button {
     padding: 0.5rem 1rem;
     background-color: #1abc9c;
     color: white;
@@ -155,35 +117,68 @@ h2 {
     font-size: 1rem;
 }
 
-.filter-buttons button:hover {
+.view-toggle button:hover {
     background-color: #16a085;
 }
 
-#course-list {
-    display: flex;
-    flex-wrap: wrap;
+.view-toggle button.active {
+    background-color: #16a085;
+}
+
+#member-list.grid {
+    display: grid;
     gap: 1rem;
 }
 
-.course-card {
+#member-list.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.member-card {
     background-color: #f9e8e8;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 5px;
-    flex: 1 1 100%;
     text-align: center;
 }
 
-.course-card.completed {
-    background-color: #e8f5e9;
-    border-left: 5px solid #4caf50;
-}
-
-.course-card h3 {
-    font-size: 1.2rem;
+.member-card img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
     margin-bottom: 0.5rem;
 }
 
-.course-card p {
+.member-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.member-card p {
+    margin: 0.2rem 0;
+}
+
+.member-card .membership {
+    font-style: italic;
+    color: #4caf50;
+}
+
+.member-list-item {
+    background-color: #f9e8e8;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.member-list-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.member-list-item p {
     margin: 0.2rem 0;
 }
 
@@ -196,10 +191,4 @@ footer {
 
 footer p {
     margin: 0.5rem 0;
-}
-
-.flag {
-    width: 20px;
-    height: auto;
-    vertical-align: middle;
 }

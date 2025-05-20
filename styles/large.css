@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation li a {
+        padding: 1rem 2rem;
+    }
+
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .course-work {
+        flex: 2;
+    }
+
+    .location {
+        flex: 1;
+    }
+
+    .certificate {
+        flex: 0 0 100%;
+    }
+
+    #course-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .course-card {
+        flex: 1 1 calc(33.333% - 1rem);
+        min-width: 150px;
+    }
+}

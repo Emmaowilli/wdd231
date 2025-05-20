@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation li a {
+        padding: 1rem 2rem;
+    }
+
+    #member-list.grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .member-card {
+        padding: 1.5rem;
+    }
+}

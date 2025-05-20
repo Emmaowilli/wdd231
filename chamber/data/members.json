@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Kampala Tech Solutions",
+        "address": "123 Makerere Hill Rd, Kampala, Uganda",
+        "phone": "+256 700 123 456",
+        "website": "https://kampalatechsolutions.ug",
+        "image": "kampala-tech.jpg",
+        "membershipLevel": 3,
+        "description": "Leading tech firm offering IT solutions."
+    },
+    {
+        "name": "Uganda Coffee Co.",
+        "address": "45 Jinja Rd, Kampala, Uganda",
+        "phone": "+256 712 987 654",
+        "website": "https://ugandacoffee.co.ug",
+        "image": "Uganda-coffee.jpg",
+        "membershipLevel": 2,
+        "description": "Premium coffee exporters."
+    },
+    {
+        "name": "Nile Breweries",
+        "address": "78 Port Bell Rd, Kampala, Uganda",
+        "phone": "+256 703 456 789",
+        "website": "https://nilebreweries.ug",
+        "image": "nile-breweries.jpg",
+        "membershipLevel": 3,
+        "description": "Local brewery with a rich history."
+    },
+    {
+        "name": "Kampala Fashion Hub",
+        "address": "12 Acacia Ave, Kampala, Uganda",
+        "phone": "+256 775 321 654",
+        "website": "https://kampalafashionhub.ug",
+        "image": "kampala-fashion1.jpg",
+        "membershipLevel": 1,
+        "description": "Promoting Ugandan fashion designers."
+    },
+    {
+        "name": "Green Energy Uganda",
+        "address": "56 Nakasero Rd, Kampala, Uganda",
+        "phone": "+256 701 654 321",
+        "website": "https://greenenergyug.ug",
+        "image": "green-energy.jpg",
+        "membershipLevel": 2,
+        "description": "Sustainable energy solutions."
+    },
+    {
+        "name": "Pearl Tours & Travel",
+        "address": "89 Kiseka Market St, Kampala, Uganda",
+        "phone": "+256 714 789 123",
+        "website": "https://pearltours.ug",
+        "image": "pearl-tour.jpg",
+        "membershipLevel": 1,
+        "description": "Top travel agency in Kampala."
+    },
+    {
+        "name": "Kampala Bakery",
+        "address": "33 Buganda Rd, Kampala, Uganda",
+        "phone": "+256 709 852 147",
+        "website": "https://kampalabakery.ug",
+        "image": "Bakery.jpg",
+        "membershipLevel": 1,
+        "description": "Fresh baked goods daily."
+    }
+]

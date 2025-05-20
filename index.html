@@ -3,60 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emmanuel Owilli - WDD 231 Home Page</title>
-    <meta name="description" content="Home page for WDD 231 course assignments by Emmanuel Owilli">
+    <meta name="description" content="Course home page for Emmanuel Owilli, showcasing Web and Computer Programming certificate courses.">
     <meta name="author" content="Emmanuel Owilli">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <title>Emmanuel Owilli - Course Home</title>
     <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/course.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="images/photostudio_emma.jpg" alt="Profile picture of Emmanuel Owilli">
-        <span>👌Emmanuel Owilli👌❤️</span>
+        <img src="images/photostudio_emma.jpg" alt="Emmanuel Owilli" width="50" height="50">
+        <span>Emmanuel Owilli</span>
     </header>
     <nav>
-        <button id="menu" aria-expanded="false" aria-controls="nav-links">☰ Menu</button>
-        <ul id="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="chamber.html">Chamber</a></li>
-            <li><a href="final.html">Final</a></li>
-            <li><a href="https://github.com/Emmaowilli">GitHub Profile</a></li>
-            <li><a href="https://www.linkedin.com/in/owilli-emmanuel-kalanda-b76768364">LinkedIn</a></li>
+        <button id="menu" aria-label="Toggle navigation menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+            <li><a href="https://github.com/Emmaowilli" target="_blank">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Home</h1>
-        <section id="course-work">
+        <section class="course-work">
             <h2>Course Work</h2>
-            <p>Assignments for WDD 231:</p>
-            <ul>
-                <li>Week 01: Course Home Page</li>
-                <li>Week 02: Chamber of Commerce Site Plan</li>
-            </ul>
+            <img src="images/banner.jpg" alt="Scenic landscape" class="banner-image">
         </section>
-        <section id="location">
-            <h2>My Location</h2>
-            <img src="images/Independence-Monument uganda1.JPEG" alt="Independence Monument in Kampala, Uganda">
-            <p>I currently live in Kampala, Uganda.</p>
+        <section class="location">
+            <h2>Kampala, Uganda</h2>
+            <img src="images/baobab.jpg" alt="Baobab Trees" class="location-image">
+            <p>Baobab Trees</p>
         </section>
-        <section id="certificate">
+        <section class="certificate">
             <h2>Web and Computer Programming Certificate</h2>
-            <nav>
+            <div class="filter-buttons">
                 <button id="all-courses">All</button>
                 <button id="cse-courses">CSE</button>
                 <button id="wdd-courses">WDD</button>
-            </nav>
-            <div id="courses"></div>
-            <p>Total Credits: <span id="total-credits"></span></p>
+            </div>
+            <div id="course-list"></div>
         </section>
     </main>
     <footer>
-        <p>© <span id="currentyear"></span> | ✌️Emmanuel Owilli✌️ | Kampala, Uganda❤️</p>
-        <p>Last Modified: <span id="lastModified"></span></p>
+        <p>© <span id="currentyear"></span> 👌Emmanuel Owilli❤️ &nbsp;|&nbsp; Kampala, Uganda &nbsp;|&nbsp; <img src="images/uganda-flag.png" alt="Uganda Flag" class="flag"></p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>
