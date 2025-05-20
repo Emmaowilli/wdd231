@@ -42,7 +42,7 @@ async function fetchWeather() {
             {
                 name: 'Green Energy Uganda',
                 address: 'Plot 45, Jinja Road, Kampala',
-                phone: '+256 700 111 222',
+                phone: '+256 773701083',
                 website: 'https://greenenergy.ug',
                 membershipLevel: 'Gold',
                 image: 'green-energy.jpg'
@@ -50,7 +50,7 @@ async function fetchWeather() {
             {
                 name: 'Kampala Tech Solutions',
                 address: 'Kira Road, Kampala',
-                phone: '+256 772 333 444',
+                phone: '+256 788488026',
                 website: 'https://kampalatech.ug',
                 membershipLevel: 'Silver',
                 image: 'kampala-tech.jpg'
@@ -58,7 +58,7 @@ async function fetchWeather() {
             {
                 name: 'Nile Breweries',
                 address: 'Luzira Industrial Area, Kampala',
-                phone: '+256 414 123 456',
+                phone: '+256 776777446',
                 website: 'https://nilebreweries.ug',
                 membershipLevel: 'Gold',
                 image: 'nile-breweries.jpg'
