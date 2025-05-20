@@ -61,7 +61,7 @@ async function fetchWeather() {
                 phone: '+256 414 123 456',
                 website: 'https://nilebreweries.ug',
                 membershipLevel: 'Gold',
-                image: 'Nile-logo.jpg'
+                image: 'Nile-breweries.jpg'
             }
         ];
 
