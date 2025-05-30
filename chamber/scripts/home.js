@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const weatherDataDiv = document.getElementById('weather-data');
     const spotlightContainer = document.getElementById('spotlight-container');
-
-    // OpenWeatherMap API Key (replace with your own key)
     const apiKey = 'e7a77ec7afde1c250f180c0e0051e4d3';
 const city = 'Kampala';
 const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city},UG&appid=${apiKey}&units=metric`;
@@ -35,8 +33,6 @@ async function fetchWeather() {
             weatherDataDiv.innerHTML = '<p>Weather data unavailable</p>';
         }
     }
-
-    // Display static spotlight members using provided image links
     function displaySpotlights() {
         const spotlightMembers = [
             {

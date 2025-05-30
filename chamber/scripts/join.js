@@ -4,11 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modals = document.querySelectorAll('.modal');
     const buttons = document.querySelectorAll('.info-btn');
     const closes = document.querySelectorAll('.close');
-
-    // Set the timestamp when the form loads
     timestampField.value = new Date().toISOString();
-
-    // Modal functionality
     buttons.forEach(button => {
         button.addEventListener('click', () => {
             const modalId = button.getAttribute('data-modal');
@@ -30,11 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
-    // Form submission handling (optional, since we're using GET method)
     form.addEventListener('submit', (event) => {
-        // The form will redirect to thankyou.html via GET method
-        // We can add client-side validation or logging if needed
         console.log('Form submitted');
     });
 });

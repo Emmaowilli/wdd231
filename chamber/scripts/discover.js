@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const cardsContainer = document.getElementById('discover-cards');
     const visitMessage = document.getElementById('visit-message');
-
-    // Fetch discover data from JSON
     async function fetchDiscoverData() {
         try {
             const response = await fetch('data/discover.json');
@@ -13,13 +11,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             return [];
         }
     }
-
-    // Display discover cards
     function displayCards(data) {
         cardsContainer.innerHTML = '';
-        data.forEach(item => {
+        data.forEach((item, index) => {
             const card = document.createElement('div');
             card.className = 'discover-card';
+            card.setAttribute('data-grid-area', `card${index + 1}`);
             card.innerHTML = `
                 <h2>${item.name}</h2>
                 <figure>
@@ -32,8 +29,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             cardsContainer.appendChild(card);
         });
     }
-
-    // Handle visitor message using localStorage
     function displayVisitMessage() {
         const lastVisit = localStorage.getItem('lastVisit');
         const currentVisit = Date.now();
@@ -52,8 +47,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         localStorage.setItem('lastVisit', currentVisit);
     }
-
-    // Initial load
     const discoverData = await fetchDiscoverData();
     displayCards(discoverData);
     displayVisitMessage();

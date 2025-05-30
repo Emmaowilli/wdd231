@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Uganda Museum",
+        "address": "Kira Road, Kampala, Uganda",
+        "description": "Explore Uganda's rich history and culture with exhibits on archaeology, ethnography, and music.",
+        "image": "museum.jpg"
+    },
+    {
+        "name": "Kasubi Tombs",
+        "address": "Masiro Road, Kampala, Uganda",
+        "description": "A UNESCO World Heritage site, the burial place of Buganda kings, showcasing traditional architecture.",
+        "image": "kasubi_tomb.jpg"
+    },
+    {
+        "name": "Ndere Cultural Centre",
+        "address": "Plot 450-452, Kisaasi Road, Kampala, Uganda",
+        "description": "Experience traditional Ugandan dance, music, and storytelling in a vibrant setting.",
+        "image": "ndere -Cultural- Centre.jpg"
+    },
+    {
+        "name": "Gaddafi National Mosque",
+        "address": "Old Kampala Hill, Kampala, Uganda",
+        "description": "A stunning mosque offering panoramic views of Kampala from its minaret.",
+        "image": "gaddafi-Mosque.jpg"
+    },
+    {
+        "name": "Kampala City Market",
+        "address": "Nakasero, Kampala, Uganda",
+        "description": "A bustling market with fresh produce, crafts, and local goods, reflecting Kampala's vibrant trade.",
+        "image": "kampala City Market.jpg"
+    },
+    {
+        "name": "Lake Victoria Shores",
+        "address": "Gaba Road, Kampala, Uganda",
+        "description": "Relax by the shores of Lake Victoria, with opportunities for boating and fishing.",
+        "image": "lake Victoria Shores.jpg"
+    },
+    {
+        "name": "Namugongo Martyrs Shrine",
+        "address": "Namugongo, Kampala, Uganda",
+        "description": "A significant religious site honoring the Uganda Martyrs, with beautiful architecture.",
+        "image": "Namugongo Martyrs Shrine.jpg"
+    },
+    {
+        "name": "Kabaka's Palace",
+        "address": "Mengo, Kampala, Uganda",
+        "description": "The official residence of the Buganda King, offering insights into royal history.",
+        "image": "kabaka's Palace.jpg"
+    }
+]

@@ -2,8 +2,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const memberList = document.getElementById('member-list');
     const gridViewBtn = document.getElementById('grid-view');
     const listViewBtn = document.getElementById('list-view');
-
-    // Fetch members from JSON
     async function fetchMembers() {
         try {
             const response = await fetch('data/members.json');
@@ -15,8 +13,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             return [];
         }
     }
-
-    // Display members
     function displayMembers(members, view) {
         memberList.innerHTML = '';
         memberList.className = view;
@@ -54,12 +50,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         });
     }
-
-    // Initial load
     const members = await fetchMembers();
     displayMembers(members, 'grid');
-
-    // Toggle views
     gridViewBtn.addEventListener('click', () => {
         displayMembers(members, 'grid');
         gridViewBtn.classList.add('active');
