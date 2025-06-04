@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const cardsContainer = document.getElementById('discover-cards');
     const visitMessage = document.getElementById('visit-message');
+
     async function fetchDiscoverData() {
         try {
             const response = await fetch('data/discover.json');
@@ -11,6 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             return [];
         }
     }
+
     function displayCards(data) {
         cardsContainer.innerHTML = '';
         data.forEach((item, index) => {
@@ -29,6 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             cardsContainer.appendChild(card);
         });
     }
+
     function displayVisitMessage() {
         const lastVisit = localStorage.getItem('lastVisit');
         const currentVisit = Date.now();
@@ -39,7 +42,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else {
             const daysBetween = Math.floor((currentVisit - lastVisit) / oneDayInMs);
             if (daysBetween < 1) {
-                visitMessage.textContent = 'Back so soon! Awesome!';
+                visitMessage.textContent = 'Back so soon! Awesome! 😊';
             } else {
                 visitMessage.textContent = `You last visited ${daysBetween} ${daysBetween === 1 ? 'day' : 'days'} ago.`;
             }
@@ -47,6 +50,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         localStorage.setItem('lastVisit', currentVisit);
     }
+
     const discoverData = await fetchDiscoverData();
     displayCards(discoverData);
     displayVisitMessage();

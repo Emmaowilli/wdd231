@@ -1,0 +1,33 @@
+/* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.discover {
+    padding: 1rem;
+}
+
+.discover-images {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for mobile */
+    gap: 1rem;
+}
+
+.discover-images figure {
+    margin: 0;
+    text-align: center;
+}
+
+.discover-images img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.discover-images figcaption {
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+}

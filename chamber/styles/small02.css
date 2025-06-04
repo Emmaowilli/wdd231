@@ -1,6 +1,82 @@
-/* [Existing styles from previous response remain unchanged until the discover-grid section] */
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header span {
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #34495e;
+}
+
+#menu {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "✖";
+}
+
+.navigation {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+}
+
+.navigation.open {
+    display: flex;
+}
+
+.navigation li a {
+    display: block;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation li a:hover, .navigation li a.active {
+    background-color: #2c3e50;
+}
+
+main {
+    padding: 1rem;
+}
 
 .discover-grid {
+    padding: 1rem;
+}
+
+#discover-cards {
     display: grid;
     grid-template-areas:
         "card1"
@@ -20,6 +96,15 @@
     border-radius: 5px;
     text-align: center;
 }
+
+.discover-card[data-grid-area="card1"] { grid-area: card1; }
+.discover-card[data-grid-area="card2"] { grid-area: card2; }
+.discover-card[data-grid-area="card3"] { grid-area: card3; }
+.discover-card[data-grid-area="card4"] { grid-area: card4; }
+.discover-card[data-grid-area="card5"] { grid-area: card5; }
+.discover-card[data-grid-area="card6"] { grid-area: card6; }
+.discover-card[data-grid-area="card7"] { grid-area: card7; }
+.discover-card[data-grid-area="card8"] { grid-area: card8; }
 
 .discover-card h2 {
     color: #2c3e50;
@@ -60,4 +145,21 @@
 
 .discover-card button:hover {
     background-color: #16a085;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

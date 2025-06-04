@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plan your eco-friendly trip to Uganda with travel tips and a contact form.">
+    <meta name="author" content="Emmanuel Owilli">
+    <meta property="og:title" content="EcoUganda Journeys - Plan Your Trip">
+    <meta property="og:description" content="Plan your sustainable trip to Uganda with travel tips, a contact form, and an interactive map.">
+    <meta property="og:image" content="https://emmaowilli.github.io/wdd231/finalproject/images/hero-uganda.jpg">
+    <meta property="og:url" content="https://emmaowilli.github.io/wdd231/finalproject/plan-trip.html">
+    <meta property="og:type" content="website">
+    <title>EcoUganda Journeys - Plan Your Trip</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon2.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/navigation.js" defer type="module"></script>
+    <script src="scripts/map.js" defer type="module"></script>
+    <script src="scripts/form.js" defer type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>EcoUganda Journeys 😊</h1>
+    </header>
+    <nav>
+        <button id="menu" aria-label="Toggle navigation menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="plan-trip.html" class="active">Plan Your Trip</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="travel-tips">
+            <h2>Travel Tips</h2>
+            <ul>
+                <li>Pack light, eco-friendly gear.</li>
+                <li>Support local guides and communities.</li>
+                <li>Respect wildlife and natural habitats.</li>
+            </ul>
+        </section>
+        <section class="map">
+            <h2>Explore National Parks</h2>
+            <div id="map"></div>
+        </section>
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="trip-form" action="form-action.html" method="get">
+                <label for="name">Name*:</label>
+                <input type="text" id="name" name="name" required autocomplete="name">
+                
+                <label for="email">Email*:</label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+                
+                <label for="destination">Preferred Destination:</label>
+                <select id="destination" name="destination">
+                    <option value="bwindi">Bwindi Impenetrable Forest</option>
+                    <option value="queen-elizabeth">Queen Elizabeth National Park</option>
+                    <option value="lake-bunyonyi">Lake Bunyonyi</option>
+                </select>
+                
+                <label for="message">Message*:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> 👌Emmanuel Owilli👌❤️ | WDD 231</p>
+        <p><a href="attributions.html">Attributions</a> | <a href="https://youtu.be/your-video-link" target="_blank">Demo Video</a></p>
+    </footer>
+</body>
+</html>

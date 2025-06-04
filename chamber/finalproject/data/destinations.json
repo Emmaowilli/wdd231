@@ -1,0 +1,17 @@
+[
+    {"name": "Bwindi Impenetrable Forest", "activity": "Gorilla Trekking", "description": "A UNESCO site for gorilla trekking.", "image": "Mgahinga Gorilla National Park.jpg"},
+    {"name": "Queen Elizabeth National Park", "activity": "Safari", "description": "Famous for tree-climbing lions.", "image": "queen-elizabeth-park.jpg"},
+    {"name": "Lake Bunyonyi", "activity": "Canoeing", "description": "A serene lake with 29 islands.", "image": "Lake- Bunyonyi.jpg"},
+    {"name": "Murchison Falls National Park", "activity": "Boat Safari", "description": "Home to the dramatic Murchison Falls.", "image": "Mgahinga Gorilla National Park.jpg"},
+    {"name": "Kidepo Valley National Park", "activity": "Wildlife Viewing", "description": "Remote park with stunning landscapes.", "image": "Kidepo Valley National Park.jpg"},
+    {"name": "Mgahinga Gorilla National Park", "activity": "Gorilla Trekking", "description": "Known for its gorilla and golden monkey tracking.", "image": "Mgahinga Gorilla National Park.jpg"},
+    {"name": "Lake Mburo National Park", "activity": "Walking Safari", "description": "Ideal for walking safaris and birding.", "image": "Lake Mburo National Park.jpg"},
+    {"name": "Rwenzori Mountains", "activity": "Hiking", "description": "Trekking in the 'Mountains of the Moon'.", "image": "Rwenzori Mountains.jpg"},
+    {"name": "Semuliki National Park", "activity": "Bird Watching", "description": "Famous for its hot springs and birdlife.", "image": "Semuliki National Park.jpg"},
+    {"name": "Kibale National Park", "activity": "Chimpanzee Tracking", "description": "Prime spot for chimpanzee tracking.", "image": "Kibale National Park.jpg"},
+    {"name": "Ziwa Rhino Sanctuary", "activity": "Rhino Tracking", "description": "Track rhinos on foot in a sanctuary.", "image": "Ziwa Rhino Sanctuary.jpg"},
+    {"name": "Sipi Falls", "activity": "Hiking", "description": "Scenic waterfalls with hiking trails.", "image": "Sipi Falls.jpg"},
+    {"name": "Mount Elgon National Park", "activity": "Hiking", "description": "Explore the extinct volcano and caves.", "image": "Mount Elgon National Park.jpg"},
+    {"name": "Lake Victoria", "activity": "Fishing", "description": "Largest lake in Africa, great for fishing.", "image": "Lake Victoria Shores.jpg"},
+    {"name": "Jinja - Nile River", "activity": "White Water Rafting", "description": "Adventure on the Nile River.", "image": "Jinja - Nile River.jpg"}
+]
