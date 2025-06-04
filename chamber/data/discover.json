@@ -15,25 +15,25 @@
         "name": "Ndere Cultural Centre",
         "address": "Plot 450-452, Kisaasi Road, Kampala, Uganda",
         "description": "Experience traditional Ugandan dance, music, and storytelling in a vibrant setting.",
-        "image": "ndere -Cultural- Centre.jpg"
+        "image": "Ndere -Cultural- Centre.jpg"
     },
     {
         "name": "Gaddafi National Mosque",
         "address": "Old Kampala Hill, Kampala, Uganda",
         "description": "A stunning mosque offering panoramic views of Kampala from its minaret.",
-        "image": "gaddafi-Mosque.jpg"
+        "image": "Gaddafi-Mosque.jpg"
     },
     {
         "name": "Kampala City Market",
         "address": "Nakasero, Kampala, Uganda",
         "description": "A bustling market with fresh produce, crafts, and local goods, reflecting Kampala's vibrant trade.",
-        "image": "kampala City Market.jpg"
+        "image": "Kampala City Market.jpg"
     },
     {
         "name": "Lake Victoria Shores",
         "address": "Gaba Road, Kampala, Uganda",
         "description": "Relax by the shores of Lake Victoria, with opportunities for boating and fishing.",
-        "image": "lake Victoria Shores.jpg"
+        "image": "Lake Victoria Shores.jpg"
     },
     {
         "name": "Namugongo Martyrs Shrine",
@@ -45,6 +45,6 @@
         "name": "Kabaka's Palace",
         "address": "Mengo, Kampala, Uganda",
         "description": "The official residence of the Buganda King, offering insights into royal history.",
-        "image": "kabaka's Palace.jpg"
+        "image": "Kabaka's Palace.jpg"
     }
 ]
