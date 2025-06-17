@@ -3,12 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Attributions for external resources used in EcoUganda Journeys.">
+    <meta name="author" content="Emmanuel Owilli">
+    <meta property="og:title" content="EcoUganda Journeys - Attributions">
+    <meta property="og:description" content="Sources for APIs, libraries, and images used in EcoUganda Journeys.">
+    <meta property="og:image" content="https://emmaowilli.github.io/wdd231/finalproject/images/hero-uganda.jpg">
+    <meta property="og:url" content="https://emmaowilli.github.io/wdd231/finalproject/attributions.html">
+    <meta property="og:type" content="website">
     <title>EcoUganda Journeys - Attributions</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon2.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/navigation.js" defer type="module"></script>
+    <script src="scripts/attributions.js" defer type="module"></script>
 </head>
 <body>
-    <h1>Attributions</h1>
-    <p>Weather data provided by OpenWeather API: <a href="https://openweathermap.org/" target="_blank">OpenWeather</a></p>
-    <p>Map functionality provided by Leaflet: <a href="https://leafletjs.com/" target="_blank">Leaflet</a></p>
-    <p>Images sourced from [Your Image Source, e.g., Unsplash]: <a href="[Image Source URL]" target="_blank">[Image Source Name]</a></p>
+    <header>
+        <h1>EcoUganda Journeys 😊</h1>
+    </header>
+    <nav>
+        <button id="menu" aria-label="Toggle navigation menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="plan-trip.html">Plan Your Trip</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="attributions-grid">
+            <h2>Attributions</h2>
+            <div id="attributions-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> 👌Emmanuel Owilli👌❤️ | WDD 231</p>
+       <a href="https://www.loom.com/share/01bfbe5a7dd545fe9974269239499062" target="_blank">Demo Video</a>
+    </footer>
 </body>
 </html>
+
+
